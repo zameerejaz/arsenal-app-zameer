@@ -11,18 +11,11 @@ generator client {
   provider = "prisma-client-js"
 }
 
-enum Position {
-  Forward
-  Midfielder
-  Defender
-  Goalkeeper
-}
-
 model Players {
     id         Int      @id @default(autoincrement())
     PlayerName String   @db.VarChar(255)
-    Position   Position
-    JerseyNumber Int   
+    Position   String   @db.VarChar(255)
+    JerseyNumber Int    @unique
     GoalsScored  Int
     @@index([PlayerName])
 }
