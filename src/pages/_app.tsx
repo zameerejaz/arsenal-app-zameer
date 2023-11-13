@@ -2,6 +2,7 @@ import { type AppType } from "next/app";
 import { Poppins } from '@next/font/google'
 import { api } from "~/utils/api";
 import { NotificationProvider } from '~/context/NotificationContext';
+import NextTopLoader from 'nextjs-toploader';
 
 import "~/styles/globals.css";
 import NotificationAlert from "~/components/Notification";
@@ -16,6 +17,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <NotificationProvider>
       <NotificationAlert />
+      <NextTopLoader color="#EF0107"/>
       <main className={`${gothicFont.variable} font-sans`}>
         <Component {...pageProps} />
       </main>
