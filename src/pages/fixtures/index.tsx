@@ -83,7 +83,7 @@ const Fixtures = ({ teamDetails, fixtures }: { teamDetails: TeamDetails; fixture
                     {fixtures.map((match) => {
                         return (
                             <li key={match.id} className="flex justify-between gap-x-6 py-5">
-                                <div className='flex flex-row gap-4 items-center'>
+                                <div className='flex flex-col gap-4 items-center w-52'>
                                     <img className="h-12 w-12 flex-none rounded-md " src={match.homeTeam.crest} alt="" />
                                     <p className="text-sm font-semibold leading-6 text-gray-900">{match.homeTeam.shortName}</p>
                                 </div>
@@ -102,9 +102,9 @@ const Fixtures = ({ teamDetails, fixtures }: { teamDetails: TeamDetails; fixture
                                     </div>
                                    
                                 </div>
-                                <div className='flex flex-row gap-4 items-center  '>
-                                    <p className="text-sm font-semibold leading-6 text-gray-900">{match.awayTeam.shortName}</p>
+                                <div className='flex flex-col gap-4 items-center   w-52'>
                                     <img className="h-12 w-12 flex-none rounded-md " src={match.awayTeam.crest} alt="" />
+                                    <p className="text-sm font-semibold leading-6 text-gray-900 tracking-wide break-words">{match.awayTeam.shortName}</p>
                                 </div>
                             </li>
                         );

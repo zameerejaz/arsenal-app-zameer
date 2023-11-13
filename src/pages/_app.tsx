@@ -17,8 +17,8 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <NotificationProvider>
       <NotificationAlert />
-      <NextTopLoader color="#EF0107"/>
       <main className={`${gothicFont.variable} font-sans`}>
+         <NextTopLoader color="#EF0107"/>
         <Component {...pageProps} />
       </main>
     </NotificationProvider>
