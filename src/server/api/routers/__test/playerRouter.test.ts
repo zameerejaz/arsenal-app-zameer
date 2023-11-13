@@ -45,7 +45,7 @@ test("getAllPlayers", async () => {
 test("getPlayerById", async () => {
     const prismaMock = mockDeep<PrismaClient>();
 
-    // @ts-expect-error
+    // @ts-expect-error A player will always be in the mockdb
     prismaMock.players.findUnique.mockImplementation(({ where }) => {
         return mockOutput.find(player => player.id === where.id);
     });
@@ -64,7 +64,7 @@ test("deletePlayer", async () => {
     const prismaMock = mockDeep<PrismaClient>();
     const playerIdToDelete = 1;
 
-    // @ts-expect-error: 
+    // @ts-expect-error: A player will always be in the mockdb
     prismaMock.players.delete.mockImplementation(({ where }) => {
         const playerIndex = mockOutput.findIndex(player => player.id === where.id);
         if (playerIndex !== -1) {
@@ -89,7 +89,7 @@ test("updatePlayer", async () => {
     const prismaMock = mockDeep<PrismaClient>();
     const playerIdToUpdate = 2;
 
-    // @ts-expect-error: 
+    // @ts-expect-error: A player will always be in the mockdb
     prismaMock.players.update.mockImplementation(({ where, data }) => {
         const player = mockOutput.find(player => player.id === where.id);
         if (player) {
