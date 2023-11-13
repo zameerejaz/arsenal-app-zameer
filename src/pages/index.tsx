@@ -11,10 +11,10 @@ import { api } from "~/utils/api";
 export default function Home() {
   const router = useRouter()
 
-  const [sortBy, setSortBy] = useState(router.query.sortBy || "Goals - Asc");
+  const [sortBy, setSortBy] = useState(router.query.sortBy ?? "Goals - Asc");
   const { data: players, error, isLoading } = api.player.getPlayers.useQuery();
 
-  const sortedPlayers = [...(players || [])];
+  const sortedPlayers = [...(players ?? [])];
 
   const handleSortChange = (event:React.ChangeEvent<HTMLSelectElement>) => {
     const selectedSortBy = event.target.value;
@@ -31,7 +31,7 @@ export default function Home() {
 
   useEffect(() => {
    
-    setSortBy(router.query.sortBy || "Goals - Asc");
+    setSortBy(router.query.sortBy ?? "Goals - Asc");
   }, [router.query.sortBy]);
 
   return (
