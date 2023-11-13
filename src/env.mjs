@@ -37,7 +37,7 @@ export const env = createEnv({
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
-    FOOTBALL_DATA_API: process.env.NODE_ENV,
+    FOOTBALL_DATA_API: process.env.FOOTBALL_DATA_API,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
   /**

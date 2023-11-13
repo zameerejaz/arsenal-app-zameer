@@ -1,4 +1,5 @@
 import { playerRouter } from "~/server/api/routers/playerRouter";
+import { fixtureRouter } from "./routers/fixtureRouter";
 import { createTRPCRouter } from "~/server/api/trpc";
 
 /**
@@ -8,6 +9,7 @@ import { createTRPCRouter } from "~/server/api/trpc";
  */
 export const appRouter = createTRPCRouter({
   player: playerRouter,
+  fixture : fixtureRouter
 });
 
 // export type definition of API

@@ -27,10 +27,9 @@ const AddPlayer = () => {
 
     const onSubmit = async (data: any) => {
         const playerData = data as PlayerData;
-        console.log("uploading data to the database");
+    
         addPlayerMutation.mutate(playerData, {
             onSuccess : (response) => {
-                console.log("player added", response);
                 router.push("/")
             },
             onError: (error) => {
@@ -40,9 +39,6 @@ const AddPlayer = () => {
         })
     }
 
-
-
-    // console.log(errors);
 
     return (
         <>
