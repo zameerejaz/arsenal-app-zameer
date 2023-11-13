@@ -1,7 +1,7 @@
 import { z } from "zod";
 
-import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
-import { env } from "~/env.mjs";
+import { createTRPCRouter, publicProcedure } from "../trpc";
+import { env } from "../../../env.mjs";
 
 
 

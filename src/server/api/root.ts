@@ -1,6 +1,6 @@
-import { playerRouter } from "~/server/api/routers/playerRouter";
+import { playerRouter } from "./routers/playerRouter";
 import { fixtureRouter } from "./routers/fixtureRouter";
-import { createTRPCRouter } from "~/server/api/trpc";
+import { createTRPCRouter } from "./trpc";
 
 /**
  * This is the primary router for your server.
