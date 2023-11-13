@@ -1,6 +1,6 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import { Transition } from '@headlessui/react'
-import { CheckCircleIcon, XCircleIcon } from '@heroicons/react/24/outline'
+import { XCircleIcon } from '@heroicons/react/24/outline'
 import { XMarkIcon } from '@heroicons/react/20/solid'
 import { useNotification } from '~/context/NotificationContext';
 
@@ -9,13 +9,12 @@ export default function NotificationAlert() {
     const notificationContext = useNotification();
 
     if (!notificationContext) {
-        console.log("it is showing null notificaiton context")
         return null;
     }
 
     const { notification, hideNotification } = notificationContext;
 
-    console.log("the notificaiton shown is ", notification.show)
+
 
     return (
         <>

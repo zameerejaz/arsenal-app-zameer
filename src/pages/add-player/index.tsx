@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useForm } from 'react-hook-form';
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { useRouter } from 'next/router';
-import { Listbox } from '@headlessui/react'
 import { api } from '~/utils/api';
 import { useNotification } from '~/context/NotificationContext';
 
