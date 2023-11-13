@@ -49,7 +49,7 @@ export default function Home() {
             <div className="sm:flex-auto">
               <h1 className="text-base font-semibold leading-6 text-gray-900">Players</h1>
               <p className="mt-2 text-sm text-gray-700">
-                A list of all the players in your team including their name, jerseyNumber, goals scored and position.
+                A list of all the players in your team including their name, jersey number, goals scored and position.
               </p>
             </div>
             <div className="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
