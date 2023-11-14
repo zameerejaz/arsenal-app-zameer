@@ -41,7 +41,7 @@
 [![Product Fixtures Screen][readmeDemo2]](https://github.com/zameerejaz/arsenal-app-zameer/blob/main/readmeDemo2.png?raw=true)
 
 
-This web application, developed using Next.js, Tailwind CSS, tRPC, and TypeScript, facilitates the management of football players. Users can add new players to the database while ensuring players added have a distinct jersey number. Additionally, the app offers functionalities for updating and deleting player information.
+This web application, developed using Next.js, Tailwind CSS, tRPC, and TypeScript, facilitates the management of football players. Users can add new players to the database while ensuring players added have a distinct jersey number. Additionally, the app offers functionalities for updating and deleting player information. The app also includes an additional 'Fixtures' tab, displaying upcoming games. The fixture data is being pulled in real-time from football-data.org
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
