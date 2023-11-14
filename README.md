@@ -36,9 +36,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Main Screen][readmeDemo1]](https://github.com/zameerejaz/arsenal-app-zameer/blob/main/readmeDemo1.png?raw=true)
+[![Product Main Screen](https://github.com/zameerejaz/arsenal-app-zameer/raw/main/readmeDemo1.png)](https://github.com/zameerejaz/arsenal-app-zameer/raw/main/readmeDemo1.png)
 
-[![Product Fixtures Screen][readmeDemo2]](https://github.com/zameerejaz/arsenal-app-zameer/blob/main/readmeDemo2.png?raw=true)
+[![Product Fixtures Screen](https://github.com/zameerejaz/arsenal-app-zameer/raw/main/readmeDemo2.png)](https://github.com/zameerejaz/arsenal-app-zameer/raw/main/readmeDemo2.png)
+
 
 
 This web application, developed using Next.js, Tailwind CSS, tRPC, and TypeScript, facilitates the management of football players. Users can add new players to the database while ensuring players added have a distinct jersey number. Additionally, the app offers functionalities for updating and deleting player information. The app also includes an additional 'Fixtures' tab, displaying upcoming games. The fixture data is being pulled in real-time from football-data.org
@@ -52,8 +53,8 @@ This web application, developed using Next.js, Tailwind CSS, tRPC, and TypeScrip
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [<img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt="Tailwind" width="100" height="100">][Tailwind-url]
-* [<img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" alt="Prisma" width="100" height="100">][Prisma-url]
+* [<img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt="Tailwind" width="50" height="50">][Tailwind-url]
+* [<img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" alt="Prisma" width="50" height="50">][Prisma-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,19 +93,32 @@ _Below is an example of how you can instruct your audience on installing and set
    DATABASE_URL = 'DATABASE_URL_XYZ';
    FOOTBALL_DATA_API = 'xyz'
    ```
+4. Launch the application:
+   ```sh
+   npm run dev
+   ```
+5. Open your web browser and navigate to http://localhost:3000 or any other port that has been specified by the console.
+
+
+### How to Add a player
+
+1. Click the "Add Player" button to add a new player.
+
+2. A new page with a new form should appear (http://localhost:3000/add-player)
+
+3. Once all fields have been filled out, please click save
+
+
+### How to Edit / Delete a player
+
+1. Click the edit button found at the end of the row.
+
+2. A new page with a form should appear, this form would be prefilled with the current players details (http://localhost:3000/edit-player/$id)
+
+3. Please click save to update the player or press delete to remove the player from the database
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
@@ -117,7 +131,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
