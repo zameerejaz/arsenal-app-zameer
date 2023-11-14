@@ -36,12 +36,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Main Screen][readmeDemo1]](https://github.com/zameerejaz/arsenal-app-zameer/blob/main/readmeDemo1.png)
+[![Product Main Screen][readmeDemo1]](https://github.com/zameerejaz/arsenal-app-zameer/blob/main/readmeDemo1.png?raw=true)
 
-[![Product Fixtures Screen][readmeDemo2]](https://github.com/zameerejaz/arsenal-app-zameer/blob/main/readmeDemo2.png)
+[![Product Fixtures Screen][readmeDemo2]](https://github.com/zameerejaz/arsenal-app-zameer/blob/main/readmeDemo2.png?raw=true)
 
 
-A web application built with Next.js, Tailwind CSS, tRPC, and TypeScript for managing football players. This app allows users to add new players to the database, ensuring that only players with unique jersey numbers can be added. It also provides features for updating and deleting players.
+This web application, developed using Next.js, Tailwind CSS, tRPC, and TypeScript, facilitates the management of football players. Users can add new players to the database while ensuring players added have a distinct jersey number. Additionally, the app offers functionalities for updating and deleting player information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,12 +49,11 @@ A web application built with Next.js, Tailwind CSS, tRPC, and TypeScript for man
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Tailwind][Tailwind-img]][Tailwind-url]
-* [![Prisma][Prima-img]][Prima-url]
+* [<img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt="Tailwind" width="100" height="100">][Tailwind-url]
+* [<img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" alt="Prisma" width="100" height="100">][Prisma-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
