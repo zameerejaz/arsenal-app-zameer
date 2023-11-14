@@ -91,11 +91,35 @@ Node.js: Make sure you have Node.js installed. You can download it from https://
    DATABASE_URL = 'DATABASE_URL_XYZ';
    FOOTBALL_DATA_API = 'xyz'
    ```
-4. Launch the application:
+
+4. Please ensure to have prisma cli installed
+   ```sh
+   # Install Prisma globally (if not already installed)
+   npm install -g prisma
+   ```
+
+5. Push the schema to your database using Prisma:
+   ```sh
+   # Install Prisma globally (if not already installed)
+   npx prisma db push
+   ```
+
+6. You should now have a schema in your database that should look like this
+   ```js
+    model Players {
+      id         Int      @id @default(autoincrement())
+      PlayerName String   @db.VarChar(255)
+      Position   String   @db.VarChar(255)
+      JerseyNumber Int    @unique
+      GoalsScored  Int
+    }
+   ```
+
+7. Launch the application:
    ```sh
    npm run dev
    ```
-5. Open your web browser and navigate to http://localhost:3000 or any other port that has been specified by the console.
+8. Open your web browser and navigate to http://localhost:3000 or any other port that has been specified by the console.
 
 
 ### How to Add a player
