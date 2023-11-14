@@ -15,7 +15,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="https://arsenal-app-zameer.vercel.app/">Zameer Ejaz - Arsenal Test</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -53,8 +53,8 @@ This web application, developed using Next.js, Tailwind CSS, tRPC, and TypeScrip
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [<img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt="Tailwind" width="50" height="50">][Tailwind-url]
-* [<img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" alt="Prisma" width="50" height="50">][Prisma-url]
+* [<img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt="Tailwind" width="65" height="65">][Tailwind-url]
+* [<img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" alt="Prisma" width="65" height="65">][Prisma-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,8 +76,6 @@ Node.js: Make sure you have Node.js installed. You can download it from https://
   ```
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
@@ -113,9 +111,9 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Click the edit button found at the end of the row.
 
-2. A new page with a form should appear, this form would be prefilled with the current players details (http://localhost:3000/edit-player/$id)
+2. A new page containing a pre-filled form with the current player's information should be displayed when you visit the following URL: http://localhost:3000/edit-player/$id.
 
-3. Please click save to update the player or press delete to remove the player from the database
+3. To update the player's details, click on 'Save,' or if you wish to delete the player from the database, press 'Delete.'
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
