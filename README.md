@@ -124,7 +124,7 @@ Node.js: Make sure you have Node.js installed. You can download it from https://
 
 Zameer Ejaz - zameer123ejaz@hotmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/zameerejaz/arsenal-app-zameer](https://github.com/zameerejaz/arsenal-app-zameer)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
